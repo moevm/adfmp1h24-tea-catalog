@@ -28,8 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/heart_menu"
-            android:text="Button" />
+            android:background="@drawable/heart_menu" />
 
         <Space
             android:layout_width="wrap_content"
@@ -41,8 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/notification"
-            android:text="Button" />
+            android:background="@drawable/notification" />
 
     </LinearLayout>
 </FrameLayout>
