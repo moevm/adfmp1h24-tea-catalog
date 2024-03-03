@@ -11,4 +11,6 @@
     <string name="Example_New_Country">Новая страна</string>
     <string name="Type_tea">Сорт</string>
     <string name="Example_New_Type">Новый сорт</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
