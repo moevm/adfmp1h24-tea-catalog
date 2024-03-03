@@ -43,7 +43,7 @@
                     android:layout_marginBottom="9dp">
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/textView7_a"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Посиделка у камина"
@@ -51,7 +51,7 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/textView8_a"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="18:00"
@@ -62,7 +62,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textView9_a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Пуэр"
