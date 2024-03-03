@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teatime.TypeWater">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вода" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Мягкая" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Средней жесткости" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Жесткая" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</FrameLayout>
