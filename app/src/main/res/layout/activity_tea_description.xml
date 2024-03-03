@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".TeaDescriptionActivity">
 
+    <include
+        layout="@layout/fragment_main_menu"
+        android:layout_width="411dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="727dp" />
+
     <Button
         android:id="@+id/imageButton1"
         android:layout_width="24dp"
@@ -102,12 +109,16 @@
 
     <TextView
         android:id="@+id/tea_sort"
-        android:layout_width="363dp"
-        android:layout_height="87dp"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
         android:layout_marginTop="12dp"
+
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
         android:text="Чёрный чай — это напиток из листьев чайной камелии. Собственно, как и зеленый чай. Основное их различие в том, что для черного чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу"
-        app:layout_constraintTop_toBottomOf="@+id/tea_description_subtitle"
-        tools:layout_editor_absoluteX="15dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tea_description_subtitle" />
 
     <TextView
         android:id="@+id/textView3"
