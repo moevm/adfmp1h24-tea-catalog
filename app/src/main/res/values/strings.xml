@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">tea-catalog</string>
+    <string name="Img_Tea">Фото Чая</string>
+    <string name="Name_Tea">Название чая</string>
+    <string name="Example_Name_Tea">Например, черный</string>
+    <string name="Description_Tea">Описание чая</string>
+    <string name="Example_Description_Tea">Что-нибудь о чае</string>
+    <string name="Temp_tea">Температура заваривания</string>
+    <string name="Country">Страна сбора</string>
+    <string name="New_Country">Новая страна сбора</string>
+    <string name="Example_New_Country">Новая страна</string>
+    <string name="Type_tea">Сорт</string>
+    <string name="Example_New_Type">Новый сорт</string>
 </resources>
