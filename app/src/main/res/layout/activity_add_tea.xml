@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,114 +7,107 @@
     android:fitsSystemWindows="true"
     tools:context=".AddTeaActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="740dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/imageButton1"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/baseline_arrow_back_ios_new_24"
-                    android:backgroundTint="@color/black"
-
-                    android:contentDescription="@string/material_motion_easing_emphasized"
-                    android:outlineAmbientShadowColor="#000000"
-                    android:outlineSpotShadowColor="#000000"
-                    android:shadowColor="#000000"
-                    android:textColor="#000000"
-                    android:textColorHint="#000000"
-                    android:textColorLink="#000000"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.041"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.032"
-                    app:rippleColor="#000000"
-                    app:strokeColor="#000000" />
-
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="start"
-                    android:layout_weight="0"
-                    android:src="@android:drawable/btn_star"
-                    tools:src="@drawable/ic_plus" />
-
-            </LinearLayout>
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-                    <include
-                        layout="@layout/fragment_img_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/imageButton1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/baseline_arrow_back_ios_new_24"
+                        android:backgroundTint="@color/black"
 
-                    <include
-                        layout="@layout/fragment_name_description_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:contentDescription="@string/material_motion_easing_emphasized"
+                        android:outlineAmbientShadowColor="#000000"
+                        android:outlineSpotShadowColor="#000000"
+                        android:shadowColor="#000000"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textColorLink="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.041"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.032"
+                        app:rippleColor="#000000"
+                        app:strokeColor="#000000" />
 
-                    <include
-                        layout="@layout/fragment_temp_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
 
-                    <include
-                        layout="@layout/fragment_country__radio"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <include
-                        layout="@layout/fragment_new_country"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <include
-                        layout="@layout/fragment_type_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <include
-                        layout="@layout/fragment_new_type"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="start"
+                        android:layout_weight="0"
+                        android:src="@android:drawable/btn_star"
+                        tools:src="@drawable/ic_plus" />
 
                 </LinearLayout>
-            </ScrollView>
 
-            <include
-                layout="@layout/fragment_main_menu"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
+                <include
+                    layout="@layout/fragment_img_tea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+                <include
+                    layout="@layout/fragment_name_description_tea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+                <include
+                    layout="@layout/fragment_temp_tea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    layout="@layout/fragment_country__radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    layout="@layout/fragment_new_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    layout="@layout/fragment_type_tea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    layout="@layout/fragment_new_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            layout="@layout/fragment_main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>
