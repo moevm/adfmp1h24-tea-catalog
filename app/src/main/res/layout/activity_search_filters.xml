@@ -31,17 +31,11 @@
         android:id="@+id/imageButton6"
         android:layout_width="24dp"
         android:layout_height="24dp"
+        android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_share"
-        tools:layout_editor_absoluteX="371dp"
-        tools:layout_editor_absoluteY="17dp" />
-
-    <include
-        layout="@layout/fragment_country__checkbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="411dp"
-        tools:layout_editor_absoluteY="61dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -54,7 +48,7 @@
 
         <include
             layout="@layout/fragment_temp_tea"
-            android:layout_width="match_parent"
+            android:layout_width="400sp"
             android:layout_height="wrap_content" />
 
     </FrameLayout>
@@ -70,7 +64,8 @@
         <include
             layout="@layout/fragment_country__checkbox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -83,7 +78,8 @@
         <include
             layout="@layout/fragment_type_tea__checkbox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp" />
     </FrameLayout>
 
     <FrameLayout
