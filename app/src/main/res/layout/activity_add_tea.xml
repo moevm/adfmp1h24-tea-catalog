@@ -60,7 +60,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="start"
                         android:layout_weight="0"
-                        android:src="@android:drawable/btn_star"
+                        android:src="@drawable/ic_plus"
                         tools:src="@drawable/ic_plus" />
 
                 </LinearLayout>
