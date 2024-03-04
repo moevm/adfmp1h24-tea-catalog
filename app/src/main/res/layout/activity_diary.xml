@@ -38,12 +38,12 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintEnd_toStartOf="@+id/addTeatimeBtn"
             app:srcCompat="@drawable/ic_share"
             tools:layout_editor_absoluteY="13dp" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/addTeatimeBtn"
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +51,7 @@
             tools:layout_editor_absoluteY="13dp" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/teatimeBackBtn"
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:layout_constraintStart_toStartOf="parent"

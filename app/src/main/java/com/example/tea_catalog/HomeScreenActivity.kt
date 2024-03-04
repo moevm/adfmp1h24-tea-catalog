@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.ImageView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -14,6 +15,8 @@ class HomeScreenActivity : AppCompatActivity() {
 
         var likedBtn = findViewById<ImageButton>(R.id.likedBtn);
         var teatimeBtn = findViewById<ImageButton>(R.id.teatimeBtn);
+        var addHomeTeaBtn = findViewById<ImageView>(R.id.addTeaHomeBtn);
+        var filtersHomeBtn = findViewById<ImageView>(R.id.filtersHomeBtn);
 
         likedBtn.setOnClickListener {
             val intent = Intent(this@HomeScreenActivity, FavoriteTeaListActivity::class.java)
@@ -22,6 +25,16 @@ class HomeScreenActivity : AppCompatActivity() {
 
         teatimeBtn.setOnClickListener {
             val intent = Intent(this@HomeScreenActivity, DiaryActivity::class.java)
+            startActivity(intent)
+        }
+
+        addHomeTeaBtn.setOnClickListener {
+            val intent = Intent(this@HomeScreenActivity, AddTeaActivity::class.java)
+            startActivity(intent)
+        }
+
+        filtersHomeBtn.setOnClickListener {
+            val intent = Intent(this@HomeScreenActivity, SearchFiltersActivity::class.java)
             startActivity(intent)
         }
 

@@ -3,6 +3,7 @@ package com.example.tea_catalog
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +16,8 @@ class MainActivity: AppCompatActivity() {
         setContentView(R.layout.activity_home_screen)
         var likedBtn = findViewById<ImageButton>(R.id.likedBtn);
         var teatimeBtn = findViewById<ImageButton>(R.id.teatimeBtn);
+        var addHomeTeaBtn = findViewById<ImageView>(R.id.addTeaHomeBtn);
+        var filtersHomeBtn = findViewById<ImageView>(R.id.filtersHomeBtn);
 
         likedBtn.setOnClickListener {
             val intent = Intent(this@MainActivity, FavoriteTeaListActivity::class.java)
@@ -23,6 +26,16 @@ class MainActivity: AppCompatActivity() {
 
         teatimeBtn.setOnClickListener {
             val intent = Intent(this@MainActivity, DiaryActivity::class.java)
+            startActivity(intent)
+        }
+
+        addHomeTeaBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, AddTeaActivity::class.java)
+            startActivity(intent)
+        }
+
+        filtersHomeBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, SearchFiltersActivity::class.java)
             startActivity(intent)
         }
 
