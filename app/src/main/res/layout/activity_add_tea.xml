@@ -27,7 +27,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/imageButton1"
+                        android:id="@+id/imageButton1Back"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/baseline_arrow_back_ios_new_24"
