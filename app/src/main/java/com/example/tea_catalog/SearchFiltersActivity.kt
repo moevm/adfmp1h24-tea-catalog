@@ -36,7 +36,7 @@ class SearchFiltersActivity : AppCompatActivity() {
         }
 
         backBtn.setOnClickListener {
-            val intent = Intent(this@SearchFiltersActivity, FavoriteTeaListActivity::class.java)
+            val intent = Intent(this@SearchFiltersActivity, HomeScreenActivity::class.java)
             startActivity(intent)
         }
 
