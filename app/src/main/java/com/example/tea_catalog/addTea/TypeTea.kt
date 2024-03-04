@@ -35,7 +35,7 @@ class TypeTea : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_type_tea, container, false)
+        return inflater.inflate(R.layout.fragment_type_tea__radio, container, false)
     }
 
     companion object {
