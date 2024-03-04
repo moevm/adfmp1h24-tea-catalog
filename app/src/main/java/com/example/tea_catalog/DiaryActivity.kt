@@ -32,7 +32,7 @@ class DiaryActivity : AppCompatActivity() {
         }
 
         backBtn.setOnClickListener {
-            val intent = Intent(this@DiaryActivity, FavoriteTeaListActivity::class.java)
+            val intent = Intent(this@DiaryActivity, HomeScreenActivity::class.java)
             startActivity(intent)
         }
 
