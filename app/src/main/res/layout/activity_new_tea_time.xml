@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content" />
 
                 <include
-                    layout="@layout/fragment_type_tea"
+                    layout="@layout/fragment_type_tea__radio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
