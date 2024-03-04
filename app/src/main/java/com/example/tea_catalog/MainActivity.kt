@@ -12,15 +12,9 @@ class MainActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        var homeBtn = findViewById<ImageButton>(R.id.homeBtn);
+        setContentView(R.layout.activity_home_screen)
         var likedBtn = findViewById<ImageButton>(R.id.likedBtn);
         var teatimeBtn = findViewById<ImageButton>(R.id.teatimeBtn);
-
-        homeBtn.setOnClickListener {
-            val intent = Intent(this@MainActivity, HomeScreenActivity::class.java)
-            startActivity(intent)
-        }
 
         likedBtn.setOnClickListener {
             val intent = Intent(this@MainActivity, FavoriteTeaListActivity::class.java)
@@ -33,7 +27,7 @@ class MainActivity: AppCompatActivity() {
         }
 
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.home)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
