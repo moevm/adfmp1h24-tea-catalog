@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:fitsSystemWindows="true"
     tools:context=".AddTeaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:orientation="vertical">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="740dp">
+            android:layout_height="740dp"
+            android:background="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -60,6 +63,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="start"
                         android:layout_weight="0"
+                        android:background="#FFFFFF"
                         android:src="@drawable/ic_plus"
                         tools:src="@drawable/ic_plus" />
 
