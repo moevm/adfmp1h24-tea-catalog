@@ -136,47 +136,47 @@
             android:paddingRight="16dp">
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/fragment_tea_card_preview"
+                layout="@layout/fragment_tea_card_preview_black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

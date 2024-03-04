@@ -17,6 +17,6 @@ class TeaCardPreview : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tea_card_preview, container, false)
+        return inflater.inflate(R.layout.fragment_tea_card_preview_black, container, false)
     }
 }
