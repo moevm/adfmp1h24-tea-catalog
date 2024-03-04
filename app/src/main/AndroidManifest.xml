@@ -25,7 +25,13 @@
             android:name=".DiaryActivity"
             android:exported="false" />
         <activity
+            android:name=".NewTeaTimeActivity"
+            android:exported="false" />
+        <activity
             android:name=".FavoriteTeaListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddTeaActivity"
             android:exported="false" />
         <activity
             android:name=".TeaDescriptionActivity"
