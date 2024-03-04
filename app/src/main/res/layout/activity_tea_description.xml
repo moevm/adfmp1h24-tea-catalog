@@ -10,9 +10,9 @@
     <include
         layout="@layout/fragment_main_menu"
         android:layout_width="411dp"
-        android:layout_height="46dp"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="727dp" />
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/imageButton1"
