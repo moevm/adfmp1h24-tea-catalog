@@ -48,8 +48,10 @@
 
         <include
             layout="@layout/fragment_temp_tea"
-            android:layout_width="400sp"
-            android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp" />
 
     </FrameLayout>
 
