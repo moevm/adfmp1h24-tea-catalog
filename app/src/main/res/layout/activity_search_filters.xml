@@ -8,7 +8,7 @@
     tools:context=".SearchFiltersActivity">
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/searchFiltersBackBtn"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:background="#00FFFFFF"
