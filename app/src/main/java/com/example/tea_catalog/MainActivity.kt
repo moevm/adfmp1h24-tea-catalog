@@ -18,6 +18,7 @@ class MainActivity: AppCompatActivity() {
         var teatimeBtn = findViewById<ImageButton>(R.id.teatimeBtn);
         var addHomeTeaBtn = findViewById<ImageView>(R.id.addTeaHomeBtn);
         var filtersHomeBtn = findViewById<ImageView>(R.id.filtersHomeBtn);
+        var aboutUsBtn = findViewById<ImageView>(R.id.aboutUsBtn);
 
         likedBtn.setOnClickListener {
             val intent = Intent(this@MainActivity, FavoriteTeaListActivity::class.java)
@@ -39,6 +40,10 @@ class MainActivity: AppCompatActivity() {
             startActivity(intent)
         }
 
+        aboutUsBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, AboutUsActivity::class.java)
+            startActivity(intent)
+        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.home)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

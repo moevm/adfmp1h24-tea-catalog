@@ -17,6 +17,7 @@ class HomeScreenActivity : AppCompatActivity() {
         var teatimeBtn = findViewById<ImageButton>(R.id.teatimeBtn);
         var addHomeTeaBtn = findViewById<ImageView>(R.id.addTeaHomeBtn);
         var filtersHomeBtn = findViewById<ImageView>(R.id.filtersHomeBtn);
+        var aboutUsBtn = findViewById<ImageView>(R.id.aboutUsBtn);
 
         likedBtn.setOnClickListener {
             val intent = Intent(this@HomeScreenActivity, FavoriteTeaListActivity::class.java)
@@ -35,6 +36,11 @@ class HomeScreenActivity : AppCompatActivity() {
 
         filtersHomeBtn.setOnClickListener {
             val intent = Intent(this@HomeScreenActivity, SearchFiltersActivity::class.java)
+            startActivity(intent)
+        }
+
+        aboutUsBtn.setOnClickListener {
+            val intent = Intent(this@HomeScreenActivity, AboutUsActivity::class.java)
             startActivity(intent)
         }
 
