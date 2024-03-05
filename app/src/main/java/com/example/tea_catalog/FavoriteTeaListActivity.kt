@@ -3,6 +3,7 @@ package com.example.tea_catalog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageButton
 
 class FavoriteTeaListActivity : AppCompatActivity() {
@@ -22,5 +23,10 @@ class FavoriteTeaListActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+
+    fun onCardClick(v: View) {
+        val intent = Intent(this@FavoriteTeaListActivity, TeaDescriptionActivity::class.java)
+        startActivity(intent)
     }
 }
